@@ -10,7 +10,8 @@ import { SharedModule } from './shared/shared.module';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { translateLoaderFactory } from './shared/helpers/http-loader-factory';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { YahooSettingsModule } from './features/yahoo-settings/yahoo-settings.module';
+import { RapidapiSettingsModule } from './features/rapidapi-settings/rapidapi-settings.module';
+import { StocksModule } from './features/stocks/stocks.module';
 
 @NgModule({
   declarations: [
@@ -26,11 +27,11 @@ import { YahooSettingsModule } from './features/yahoo-settings/yahoo-settings.mo
       }
     }),
     AppRoutingModule,
-    NgbModule,
     HttpClientModule,
     FontAwesomeModule,
     SharedModule,
-    YahooSettingsModule
+    RapidapiSettingsModule,
+    StocksModule
   ],
   providers: [],
   bootstrap: [AppComponent]

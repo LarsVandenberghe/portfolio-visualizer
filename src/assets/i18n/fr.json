@@ -1,6 +1,8 @@
 {
 	"menu-bar": {
 		"dashboard": "Dashboard",
+		"rapidapi-settings": "Rapidapi Settings",
+		"stocks": "Stocks",
 		"yahoo-settings": "Yahoo Settings"
 	}
 }

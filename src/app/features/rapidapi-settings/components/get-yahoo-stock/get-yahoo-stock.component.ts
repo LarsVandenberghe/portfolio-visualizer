@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { YahooApiService } from '../../services/yahoo-api.service';
-import { IAutoComplete } from '../../types/yahoo-api.types';
+import { IAutoComplete } from '../../types/rapidapi.types';
 
 @Component({
   selector: 'app-get-yahoo-stock',

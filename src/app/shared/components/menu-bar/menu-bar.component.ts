@@ -22,8 +22,12 @@ export class MenuBarComponent implements OnInit {
     this.router.navigate(['']);
   }
 
-  navigateYahooSettings(): void {
-    this.router.navigate(['yahoo-settings']);
+  navigateRapidapiSettings(): void {
+    this.router.navigate(['rapidapi-settings']);
+  }
+
+  navigateStocks(): void {
+    this.router.navigate(['stocks']);
   }
 
   forceClick(id: string): void {

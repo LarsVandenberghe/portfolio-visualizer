@@ -15,17 +15,7 @@ export interface IQuote {
     typeDisp: string
 }
 
-
-export interface ITransaction {
-    quantity: number,
-    timestamp: number,
-    amountOfShares: number,
-    symbol: string,
-    type: TransactionTypeEnum
-}
-
-export enum TransactionTypeEnum {
-    YahooStock,
-    PreciousMetal,
-    Custom
+export interface IApiKeyStore {
+    yahooKey: string,
+    perciousMetalKey: string
 }

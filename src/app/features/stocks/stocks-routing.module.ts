@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { YahooSettingsComponent } from './views/yahoo-settings/yahoo-settings.component';
+import { StocksComponent } from './views/stocks/stocks.component';
 
 const routes: Routes = [
   {
-    path: 'yahoo-settings',
-    component: YahooSettingsComponent
+    path: 'stocks',
+    component: StocksComponent
   }
 ];
 
@@ -13,4 +13,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class YahooSettingsRoutingModule { }
+export class StocksRoutingModule { }
