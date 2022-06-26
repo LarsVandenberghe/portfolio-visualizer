@@ -1,0 +1,27 @@
+@import '../../../../themecolors.scss';
+
+.nav-bar-bg-custom {
+    // background: linear-gradient(170deg, rgb(122, 34, 61) 0%, rgb(163, 88, 30) 100%);
+    background: linear-gradient(170deg, map-get($theme-colors, "primary"),  #0097ee);//#ddb046,
+    box-shadow: 0px 0px 3px 1px map-get($theme-colors, "gray");
+    // border: 1px solid map-get($theme-colors, "gray-dark");
+}
+
+.logout-highlight {
+    background-color: lighten(map-get($theme-colors, "primary"), 8);
+    border-radius: 0em;
+    &:hover{
+        background-color: map-get($theme-colors, "primary");
+    }
+}
+
+.no-border_radius {
+    border-radius: 0em;
+}
+
+.profile-thumbnail-pic {
+    height: 25px;
+    border-radius: 6px;
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px 2px map-get($theme-colors, "white");
+}

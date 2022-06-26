@@ -1,0 +1,5 @@
+<div *ngIf="autoComplete$ | async as autoComplete">
+    <p *ngFor="let item of autoComplete.quotes">
+        <a [href]="'https://finance.yahoo.com/quote/' + item.symbol" target="_blank">{{item.symbol}}</a> - {{item.shortname}}
+    </p>
+</div>
